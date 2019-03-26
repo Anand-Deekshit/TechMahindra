@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+}
+
+.one{
+    padding: 50px 90px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 30em;
+    max-height: 860px;
+    box-sizing: border-box;
+    background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/header-bg.png");       
+}
+
+#headings{
+    border-left: 10px solid #ea5b0c;
+    margin: 30px 0px;
+    padding-left: 15px;
+}
+
+#heading1{
+    font-size: 36px;
+    font-family: 'Raleway';
+    color: white;
+}
+
+#heading2{
+    font-size: 36px;
+    font-family: square;
+    color: white;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+#para{
+    font-size: 24px;
+    font-family: "Raleway";
+    color: white;
+    padding-top: 40px;
+}
+
+hr{
+    border:0.5px solid #ea5b0c;
+    margin: 3px;
+}
+
+#dates{
+    color: #ea5b0c;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+#forms{
+    position: relative;
+    float: right;
+
+}
+
+#highlights{
+    align-items: center;
+}
+
+#online{
+    font-family: 'Raleway';
+    font-size: 18px;
+
+}
+
+#coursehighlights{
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Roboto';  
+    color: white;
+    font-size: 36px;
+    font-weight:300;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+#forms{
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0px 0px;
+    margin: auto;
+    width: 100%;
+    max-width: 350px;
+}
+
+#savemyspot{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+#number{
+    float: right;
+}
+
+input{
+    margin: 7px 0px;
+    padding: 7px 15px;
+    border: 1px solid rgba(83,83,83,0.72);
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#enquiry{
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: white;
+}
+
+#number{
+    text-align: center;
+    padding: 0px 7px 10px;  
+    font-size: 30px;
+    height: 46px;
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+#phone{
+    margin-left: 50px;
+    text-align: center;
+    padding: 0px 7px 10px;  
+    font-size: 30px;
+    height: 46px;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+#submit{
+    color: white;
+    background-color: #ea5b0c;
+    border: solid white;
+    width: 330px;
+    font-size: 20px;
+}
+
+#contact{
+    text-align: center;
+    justify-content: center;
+}
+
+#logo{
+    padding-top: 50px;
+}
+
+#nothing{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 60px;
+    transform: rotate(-90deg);
+    margin-right: 80%;
+    margin-top: 100px;
+}
+
+
+#first, #second, #third, #fourth{
+    transform: rotate(90deg);
+    text-align: center;
+    min-height: 200px;
+    padding: 20px;
+    max-width: 240px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px 15px;
+    box-sizing: border-box;
+    height: 225px;
+}
+
+#laptop, #bulb, #letter, #certificate{
+    height: 70px;
+    margin:5px;
+}
+
+.text{
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+#try{
+    margin-top: 250px;
+    text-align: center;
+}
